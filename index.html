@@ -21,16 +21,11 @@
             <input type="submit" value="Log In" />
         </form>
         <div id="logo-box">
-        <img class="logo" src="img/Youtube.png">
-        <img class="logo" src="img/naver.png">
-        <img class="logo" src="img/google.png">
+        <a href="https://www.youtube.com/" target="_blank"><img class="logo" src="img/Youtube.png"></a>
+        <a href="https://www.naver.com/" target="_blank"><img class="logo" src="img/naver.png"></a>
+        <a href="https://www.google.com/" target="_blank"><img class="logo" src="img/google.png"></a>
         </div>
     </header>
-
-
-
-
-
     <article>
         <div id="greeting-box">
             <h1 id="greeting" class="hidden"></h1>
@@ -45,19 +40,24 @@
 
 
 
-
-    
+    <div id="todo-position">
     <form id="todo-form">
         <input id="todo" type="text" placeholder="Write a To Do" required/>
     </form>
-
+    <div id="list-box">
     <ul class="list" id="todo-list">
     </ul>
+    </div>
+    </div>
+
+
+
 
 
     <footer>
         <div id="quote">
             <span id="quoteA"></span>
+            -
             <span id="quoteB"></span>
         </div>
     </footer>
